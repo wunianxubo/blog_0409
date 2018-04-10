@@ -11,8 +11,7 @@ comment: false
   
 Name: wunian   
 From: Shanghai University  
-Email: wunian@shu.edu.cn  
+Email: wunianxubo@163.com 
+WeChat: pp939006582
       
-![](http://i.imgur.com/v3VoOLY.jpg)  
-![](/photos/1.jpg)
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=167802&auto=1&height=66"></iframe>
+![](http://osrmzp0jr.bkt.clouddn.com/xubo.png) 
