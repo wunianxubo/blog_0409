@@ -7,6 +7,7 @@ categories: java
 
 # 一、Lock接口
 在Lock接口出现之前，Java程序是靠synchronized关键字实现锁功能的，在java5之后，并发包中增加了Lock接口（以及相关实现类）用来实现锁功能，它提供了与synchronized类似的功能，但是在使用时需要显式地获取和释放锁。虽然缺少了synchronized隐式获取释放锁的便捷性，但是却拥有锁获取和释放的可操作性、可中断的获取锁、超时获取锁等多种synchronized不具备的同步特性。  
+<!-- more -->
 
 ```
 Lock lock = new ReetrantLock();
