@@ -57,7 +57,7 @@ ApplicationContext在BeanFactory的基础上添加了附加功能，使其成为
 - 一个功能是：如果直接使用FileSystemXmlApplicationContext，对于实例化这个应用上下文的支持，同时会启动IOC容器的refresh()过程，这个refresh()过程会涉及到IOC容器启动的一系列复杂操作。
 - 另一个功能是：是FileSystemXmlApplicationContext设计具体相关的功能，这部分定义如何从文件系统中加载XML的Bean定义资源。
 
-通过这个过程，可以为在文件系统中杜徐以XML形式存在的BeanDefinition做准备，由于不同的应用上下文实现对应着不同的读取BeanDefinition的方式。FileSystemXmlApplicationContext的读取方式如下：  
+通过这个过程，可以为在文件系统中读取以XML形式存在的BeanDefinition做准备，由于不同的应用上下文实现对应着不同的读取BeanDefinition的方式。FileSystemXmlApplicationContext的读取方式如下：  
 ```
 protected Resource getResourceByPath(String path){
     if(path != null && path.startsWith("/")){
