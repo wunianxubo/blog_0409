@@ -9,6 +9,7 @@ categories: Spring源码解析
 
 ## IOC容器的依赖注入
 依赖注入的过程是用户第一次向IOC容器索要Bean时出发的，即使用getBean()方法时。当然也有例外，当我们设置了lazy-init属性后，会让容器完成对Bean的预实例化，这个这个预实例化其实也是一个依赖注入的过程，只是时机和场景不同。（可见refresh方法中的注解）  
+<!-- more -->
 
 ```
 pulic void refresh() throws BeansException{
