@@ -1,8 +1,8 @@
 ---
 title: 深入浅出多线程
 date: 2017-07-08 17:12:55
-tags: [Java,多线程] 
-categories: Java
+tags: [java,多线程] 
+categories: java
 
 ---
 ## **1、多线程的引入**

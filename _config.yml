@@ -65,7 +65,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Yelee
+#theme: Yelee
+theme: maupassant
 
 
 # Deployment
@@ -85,3 +86,5 @@ feed:
 search:
 	path: search.xml
 	field: post
+
+mathjax: true

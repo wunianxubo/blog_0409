@@ -2,7 +2,8 @@
 title: Netty剖析之核心组件
 date: 2018-06-13 21:53:00  
 tags: [Netty]    
-categories: Netty
+categories: Netty  
+toc: true
 ---
 
 ## 前言
