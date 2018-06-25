@@ -1,8 +1,9 @@
 ---
 title: Java NIO 原理解析
 date: 2018-04-11 17:05:00  
-tags: [java,java基础]    
-categories: java基础  
+tags: [java,Netty]    
+categories: Netty  
+toc: true
 ---
 ## 前言
 NIO（Non-blocking I/O，在Java领域，也成为New I/O），是一种同步非阻塞的I/O模型，也是I/O多路复用的基础，Netty其实就是对NIO的一种封装，以实现高性能。  
